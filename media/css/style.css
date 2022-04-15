@@ -1,0 +1,40 @@
+body{
+margin:0;
+padding:0;
+}
+.header{
+background:url('../img/fone.jpg');
+height:200px;
+}
+.logo{
+	float:left;
+}
+.logotext{
+	float:right;
+}
+.menu{
+	display:flex;
+}
+.menu a{
+	flex:1;
+	background: grey;
+	color: silver;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0;
+	border-right: 1px white solid;
+}
+.menu a:hover{
+	background: purple;
+	color: gold;
+}
+.mycontent{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.footer{
+	background: grey;
+	color: blue;dsass
+	text-align: center;
+	padding: 10px 0;
+}
