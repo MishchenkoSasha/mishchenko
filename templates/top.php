@@ -1,3 +1,6 @@
+<?php
+require('config/config.php');
+?>
 <!Doctype html>
 <html lang="ru">
 <head>
@@ -15,12 +18,13 @@
 </div>
 <div class="menu">
     <a href="/">Главная</a>
-    <a href="#">О компании</a>
+    <a href="/static.php?url=about">О компании</a>
     <a href="/catalog.php">Каталог</a>
-    <a href="#">Доставка</a>
-    <a href="#">Оплата</a>
+    <a href="/static.php?url=delivery">Доставка</a>
+    <a href="/static.php?url=payments">Оплата</a>
     <a href="#">Программа лояльности</a>
-    <a href="/contacts.php">Контакты</a>
+    <a href="/static.php?url=contacts">Контакты</a>
+    <a href="/register.php">Регистрация</a>
 </div>
 <div class="container mycontent">
     <div class="row">
